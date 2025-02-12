@@ -22,6 +22,10 @@
  // const {x , calcusum} = sums
   // console.log(x);
 
+  // to require json data
+
+  const data = require("./data.json")
+  console.log(data);
 
   // now our code look so clean 
 
