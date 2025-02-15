@@ -16,3 +16,6 @@
 
 
 // after this code then the code passing to V8 engine to run js code
+
+console.log(__dirname);
+console.log(__filename);
