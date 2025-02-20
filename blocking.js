@@ -5,7 +5,7 @@
 // this is sync code and this will block the flow of code 
 // now when we increase the value ever then this make the more time and block the js engine 
 // so never ever used sync fuuntion bcz it block the code kexecution
- Crypto.pbkdf2Sync("muhammadatifkhan" , "salt" , 500000000 , 50 , "sha512")
+ Crypto.pbkdf2Sync("muhammadatifkhan" , "salt" , 50000 , 50 , "sha512")
  console.log("first key is generated");
 
 
