@@ -48,7 +48,7 @@ console.log('Found documents filtered by { a: 3 } =>', filteredDocs);
 
  // updating the data 
 
- const updateResult = await coll.updateOne({ name:"Ali" }, { $set: { age: 10 } });
+ const updateResult = await coll.updateOne({ name:"Ali khan" }, { $set: { age: 10 } });
 
 
        return "Connection is eastablished"
